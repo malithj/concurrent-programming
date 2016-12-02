@@ -1,0 +1,20 @@
+Navigate to the Lab1 folder.
+Enter the following commands in the terminal. 
+
+Serial Linked List program
+----------------------------
+gcc -Wall -g -pthread -ansi -std=gnu99  -c src/serial_linked_list.c -o serial_linked_list.o
+gcc -o serial_linked_list serial_linked_list.o -lm
+./serial_linked_list
+
+Mutex Linked List program
+----------------------------
+gcc -Wall -g -pthread -ansi -std=gnu99  -c src/mutex_linked_list.c -o mutex_linked_list.o
+gcc -o mutex_linked_list mutex_linked_list.o -pthread -lm
+./mutex_linked_list
+
+Rwlock Linked List program
+----------------------------
+gcc -Wall -g -pthread -ansi -std=gnu99  -c src/rwlock_linked_list.c -o rwlock_linked_list.o
+gcc -o rwlock_linked_list rwlock_linked_list.o -pthread -lm
+./rwlock_linked_list
