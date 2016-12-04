@@ -126,8 +126,6 @@ int main()
     scanf("%lf",&insert_fraction);
     printf("Enter delete_fraction: ");
     scanf("%lf",&delete_fraction);
-    printf("Enter thread count: ");
-    scanf("%d",&thread_count);
 
     double timespent[iterations];
     for(seed=10; seed<11+iterations; seed++){
